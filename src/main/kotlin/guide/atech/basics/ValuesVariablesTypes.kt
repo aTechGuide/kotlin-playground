@@ -3,7 +3,7 @@ package guide.atech.basics
 import com.sun.org.apache.xpath.internal.operations.Bool
 
 /**
- * Kotlin Basics
+ * rockthejvm -> Kotlin Basics
  */
 fun main() {
     // statically typed language
