@@ -1,7 +1,5 @@
 package guide.atech.basics
 
-import com.sun.org.apache.xpath.internal.operations.Bool
-
 /**
  * rockthejvm -> Kotlin Basics
  */
