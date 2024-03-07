@@ -37,6 +37,21 @@ class Color(r: Int, g: Int, b: Int) {
         ImageIO.write(image, "JPG", File(path))
     }
 
+    companion object {
+        val BLACK = Color(0,0,0)
+        val RED = Color(255,0,0)
+        val GREEN = Color(0,255,0)
+        val BLUE = Color(0,0,255)
+        val GRAY = Color(128,128,128)
+
+        fun fromHex(arg: Int): Color {
+            val red = (arg and 0xFF0000) shr 16
+            val green = (arg and 0xFF00) shr 8
+            val blue = arg and 0xFF
+            return Color(red, green, blue)
+        }
+    }
+
 }
 
 fun main() {
