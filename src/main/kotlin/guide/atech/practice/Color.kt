@@ -4,6 +4,9 @@ import java.awt.image.BufferedImage
 import java.io.File
 import javax.imageio.ImageIO
 
+/**
+ * rockthejvm -> OOP Exercise
+ */
 // manipulating images
 // 24bit integer = Int
 // 00000000rrrrrrrrggggggggbbbbbbbb
