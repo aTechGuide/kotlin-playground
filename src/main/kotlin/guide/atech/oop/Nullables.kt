@@ -1,5 +1,8 @@
 package guide.atech.oop
 
+/**
+ * rockthejvm -> Nullables
+ */
 object Nullables {
 
     class Developer(val name: String, val favLanguage: String) {
