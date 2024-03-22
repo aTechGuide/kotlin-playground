@@ -6,7 +6,9 @@ import java.awt.image.BufferedImage
 import java.io.File
 import javax.imageio.ImageIO
 
-// crop a picture
+/**
+ * rockthejvm -> OOP Exercise: Image Cropping
+ */
 class Image(val buffImage: BufferedImage) {
 
     val width = buffImage.width
