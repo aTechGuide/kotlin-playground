@@ -9,10 +9,14 @@ import javax.imageio.ImageIO
 /**
  * rockthejvm -> OOP Exercise: Image Cropping
  */
-class Image(val buffImage: BufferedImage) {
+class Image(private val buffImage: BufferedImage) { // NEVER expose mutable state outside this class
 
     val width = buffImage.width
     val height = buffImage.height
+
+    fun draw(g: Graphics) {
+        g.drawImage(buffImage, 0, 0, null)
+    }
 
     fun save(path: String) =
         ImageIO.write(buffImage, "JPG", File(path))
